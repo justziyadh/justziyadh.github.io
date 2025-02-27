@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Unit Converter</h2>
+        <input type="number" id="inputValue" placeholder="Enter value">
+        <select id="unitType">
+            <option value="m-to-ft">Meters to Feet</option>
+            <option value="ft-to-m">Feet to Meters</option>
+            <option value="c-to-f">Celsius to Fahrenheit</option>
+            <option value="f-to-c">Fahrenheit to Celsius</option>
+            <option value="kg-to-lb">Kilograms to Pounds</option>
+            <option value="lb-to-kg">Pounds to Kilograms</option>
+        </select>
+        <button onclick="convert()">Convert</button>
+        <h3 id="result"></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
